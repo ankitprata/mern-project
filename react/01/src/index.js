@@ -10,6 +10,7 @@ root.render(
     
        <Data/>    
   </React.StrictMode>
+  // <h1>vjkl</h1>
 );
 
 // If you want to start measuring performance in your app, pass a function

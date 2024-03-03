@@ -18,7 +18,7 @@ const Data = () => {
 
     return (
         <div>
-            <ul>
+            <ul className='ankit'>
 
                 {nData.map((items) => {
                     <li keys={items.id}>
@@ -26,6 +26,7 @@ const Data = () => {
                         <br/>
                         <button onClick={()=>handleRemove(items.id)}>Remove</button>
                     </li>
+                   
                     
 
                 })}
