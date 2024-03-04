@@ -4,7 +4,11 @@ import ReactDOM from 'react-dom/client';
 // import Form from './Form';
 // import UseEffect from './UseEffect';
 // import Fetch from './Fetch';
-import A from './A';
+// import A from './A';
+// eslint-disable-next-line no-unused-vars
+// const useReducer = require('./useReducer');
+// import { useReducer } from 'react';
+import App from './useReducer';
 
 
 
@@ -12,8 +16,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
 
-    <A/>
+
+    < App />
    
+    {/* <A/>  */}
 
 
     {/* <Data />
