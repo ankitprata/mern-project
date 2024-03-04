@@ -39,6 +39,7 @@ const Form = () => {
             <label>Password:
                 <input type="password" onChange={handleInput} value={formData.password} name="password"/>
             </label>
+            
           </form>
         </div>
     )

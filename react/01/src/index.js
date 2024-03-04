@@ -1,16 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Data from './Data';
-import Form from './Form';
+// import Data from './Data';
+// import Form from './Form';
+// import UseEffect from './UseEffect';
+// import Fetch from './Fetch';
+import A from './A';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
 
+    <A/>
+   
 
-    <Data />
+
+    {/* <Data />
     <Form/>
+    <UseEffect/>
+    <Fetch/> */}
   </React.StrictMode>
   
   // <h1>vjkl</h1>
