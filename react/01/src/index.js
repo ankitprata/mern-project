@@ -8,16 +8,19 @@ import ReactDOM from 'react-dom/client';
 // eslint-disable-next-line no-unused-vars
 // const useReducer = require('./useReducer');
 // import { useReducer } from 'react';
-import App from './useReducer';
+// import App from './useState';
+// import App from './useReducer';
+import Router from './Router';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Router/>
 
 
-    < App />
+    {/* < App /> */}
    
     {/* <A/>  */}
 

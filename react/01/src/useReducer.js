@@ -1,18 +1,33 @@
-import React, { useState } from "react";
+import React, { useReducer, useState } from "react";
+
+const reducer = (state, action) => {
+
+};
+const App = () => {
+    // const [count,setCount]=useState(0);
 
 
-const App=()=>{
-    const [count,setCount]=useState(0);
-    
-    const handleClick=()=>{
-        setCount(count+1);
+    const [state, dispatch] = useReducer(reducer,
+        { count: 0 });
+    //reducer function
+    // it is pure function
+    // state (coffe powder) and action (water)
+    // new sate (coffe)
+
+
+    //  pure function
+    // 10+10=20
+    // no side effect
+
+    const handleClick = () => {
+        dispatch({type:"incr"});
     }
-    const handleClick1=()=>{
-        setCount(count-1);
+    const handleClick1 = () => {
+        dispatch({type:"incr"});
     }
-    return(
+    return (
         <div>
-            <h1>{count}</h1>
+            <h1>{state.count}</h1>
             <button onClick={handleClick}>+</button>
             <button onClick={handleClick1}>-</button>
         </div>
